@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/systemitem"
+            android:icon="@drawable/ic_android_black_24dp"
+            android:title="시스템 해킹" />
+
+        <item
+            android:id="@+id/networkitem"
+            android:icon="@drawable/ic_android_black_24dp"
+            android:title="네트워크 해킹" />
+
+        <item
+            android:id="@+id/webitem"
+            android:icon="@drawable/ic_android_black_24dp"
+            android:title="웹 해킹" />
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/bug_report"
+            android:icon="@drawable/ic_android_black_24dp"
+            android:title="버그 리포트"/>
+
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_android_black_24dp"
+            android:title="설정" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_android_black_24dp"
+            android:title="로그아웃" />
+    </group>
+
+</menu>
